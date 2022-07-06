@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
     override fun onTrimMemory(level: Int) {
 
 //        Don't have too much methdots on this activity to put inside the TRIM_MEMORY callBacks
-//        but I thought is important to leave here this comment
+//        but I thought important to leave here this comment
 
         // Determine which lifecycle or system event was raised.
         when (level) {
